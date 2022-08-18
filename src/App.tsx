@@ -8,10 +8,12 @@ function App() {
   return (
     <div>
       <Header />
-      <Routes>
-        <Route path='/' element={<HomePage />} />
-        <Route path='/favourites' element={<FavouritesPage />} />
-      </Routes>
+      <main className='m-auto w-11/12'>
+        <Routes>
+          <Route path='/' element={<HomePage />} />
+          <Route path='/favourites' element={<FavouritesPage />} />
+        </Routes>
+      </main>
     </div>
   )
 }
